@@ -89,7 +89,7 @@
 		"esm:voice": "gen-esm-wrapper ./voice/index.js ./voice/index.mjs",
 		"lint": "eslint --fix --ext mjs,ts {gateway,payloads,rest,rpc,voice,utils}/**/*.ts {globals,v*}.ts",
 		"postpublish": "run-s clean:node build:deno",
-		"prepare": "is-ci || husky install",
+		"prepare": "npm run build:node",
 		"prepublishOnly": "run-s clean test:lint build:node",
 		"test:lint": "eslint --ext mjs,ts {gateway,payloads,rest,rpc,voice,utils}/**/*.ts {globals,v*}.ts",
 		"version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
