@@ -1,7 +1,7 @@
 /**
  * https://discord.com/developers/docs/topics/opcodes-and-status-codes#json-json-error-codes
  */
-export const enum RESTJSONErrorCodes {
+export enum RESTJSONErrorCodes {
 	GeneralError,
 
 	UnknownAccount = 10001,

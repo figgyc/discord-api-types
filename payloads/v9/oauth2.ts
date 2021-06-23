@@ -91,7 +91,7 @@ export interface APIApplication {
 	flags: ApplicationFlags;
 }
 
-export const enum ApplicationFlags {
+export enum ApplicationFlags {
 	ManagedEmoji = 1 << 2,
 	GroupDMCreate = 1 << 4,
 	RPCHasConnected = 1 << 11,
@@ -103,7 +103,7 @@ export const enum ApplicationFlags {
 	Embedded = 1 << 17,
 }
 
-export const enum OAuth2Scopes {
+export enum OAuth2Scopes {
 	/**
 	 * For oauth2 bots, this puts the bot in the user's selected guild by default
 	 */

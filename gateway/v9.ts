@@ -34,7 +34,7 @@ export const GatewayVersion = '9';
 /**
  * https://discord.com/developers/docs/topics/opcodes-and-status-codes#gateway-gateway-opcodes
  */
-export const enum GatewayOpcodes {
+export enum GatewayOpcodes {
 	/**
 	 * An event was dispatched
 	 */
@@ -85,7 +85,7 @@ export const enum GatewayOpcodes {
 /**
  * https://discord.com/developers/docs/topics/opcodes-and-status-codes#gateway-gateway-close-event-codes
  */
-export const enum GatewayCloseCodes {
+export enum GatewayCloseCodes {
 	/**
 	 * We're not sure what went wrong. Try reconnecting?
 	 */
@@ -168,7 +168,7 @@ export const enum GatewayCloseCodes {
 /**
  * https://discord.com/developers/docs/topics/gateway#list-of-intents
  */
-export const enum GatewayIntentBits {
+export enum GatewayIntentBits {
 	Guilds = 1 << 0,
 	GuildMembers = 1 << 1,
 	GuildBans = 1 << 2,
@@ -189,7 +189,7 @@ export const enum GatewayIntentBits {
 /**
  * https://discord.com/developers/docs/topics/gateway#commands-and-events-gateway-events
  */
-export const enum GatewayDispatchEvents {
+export enum GatewayDispatchEvents {
 	ApplicationCommandCreate = 'APPLICATION_COMMAND_CREATE',
 	ApplicationCommandDelete = 'APPLICATION_COMMAND_DELETE',
 	ApplicationCommandUpdate = 'APPLICATION_COMMAND_UPDATE',
